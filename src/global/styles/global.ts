@@ -22,6 +22,8 @@ export const GlobalStyle = createGlobalStyle`
     align-items: center;
     
     margin: 0 auto;
+
+    background-color: ${({ theme }) => theme.COLORS.brand.background};
   }
 
   a, button, input, textarea {

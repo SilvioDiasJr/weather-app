@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   html, body, #root {
     scroll-behavior: smooth;
     font-size: 62.5%; 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
   body {
@@ -22,10 +22,12 @@ export const GlobalStyle = createGlobalStyle`
     align-items: center;
     
     margin: 0 auto;
+
+    background-color: ${({ theme }) => theme.COLORS.brand.background};
   }
 
   a, button, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
   a {

@@ -15,7 +15,7 @@ export const Visibility: React.FC<Props> = ({ data }) => {
 
       <div>
         <span>{data?.visibility && Math.floor(data.visibility / 1000)}</span>
-        <span> km</span>
+        <span>km</span>
       </div>
     </Container>
   )
